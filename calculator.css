@@ -2,7 +2,7 @@ body{
     /* background-image: url(/img/whitebg.jpg);
     background-position: center;
     background-size: cover; */
-    background-color: #E5E5E5    ;
+    background-color: #1bac87    ;
     margin: 0;
 }
 .box{
@@ -16,6 +16,7 @@ body{
     text-align: center;
 }
 .container{
+    box-shadow:15px 18px 10px #3e478f;
     padding-bottom: 10px;
     border-radius: 20px;
     background-color: #14213D;
@@ -23,7 +24,12 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.container:hover{
+    
+    box-shadow:-15px 18px 10px #3e478f;
+}
 button{
+    box-shadow:5px 4px 6px #1bac87;
     border: none;
     border-radius: 50%;
     color: #FFFFFF;
@@ -33,8 +39,9 @@ button{
     margin: 5px;
 }
 button:hover{
-    background-color:#E5E5E5;
+    background-color:#1bac87;
     color: #14213D;
+    box-shadow:5px 4px 6px #FCA311 ;
 }
 .number-box{
     color: #14213D;
